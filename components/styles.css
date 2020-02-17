@@ -1,0 +1,19 @@
+.header{   
+    background: rgb(175,238,238);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+.container{
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;  
+  justify-content: center;
+}
+
+  .links{
+    justify-content: center;
+    text-align: center;
+  }
