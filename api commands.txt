@@ -1,0 +1,84 @@
+Register- https://192.168.2.120:8080/json/system/login?user=dssadmin&password=momo2103
+
+192.168.43.62:3000
+
+Turn on lights-
+Wohnzimmer-id=9
+Green: https://192.168.2.120:8080/json/device/turnOn?dsuid=2f9ab2108161565ec0a53d70c5eb045600
+Green: https://192.168.2.120:8080/json/device/turnOn?dsuid=1c2407b9ce1c525380483fd6e92b1e1e00
+White: https://192.168.2.120:8080/json/device/turnOn?dsuid=e980ae668cd55ac9c04ff55aebcd5dd000
+Red: https://192.168.2.120:8080/json/device/turnOn?dsuid=5a47f2362fdb59f6c0e77dad08100ebe00
+Red: https://192.168.2.120:8080/json/device/turnOn?dsuid=279d1409e13e5a3480eb50e045f9271500
+Blue: https://192.168.2.120:8080/json/device/turnOn?dsuid=f1e38c1fb56d59dc808d646089df843a00
+Blue: https://192.168.2.120:8080/json/device/turnOn?dsuid=cc8ff6b787af5137c0981da0c243410700
+
+
+Bad-id=11
+Green: https://192.168.2.120:8080/json/device/turnOn?dsuid=cd763391425b58bcc03ba0bb5f09c93d00
+Red: https://192.168.2.120:8080/json/device/turnOn?dsuid=91cfdefc4b735b66c05ea7f87a8c678800
+Blue: https://192.168.2.120:8080/json/device/turnOn?dsuid=96441222d4435ede8017c2744a15cdf000
+Led band Dusche: https://192.168.2.120:8080/json/device/turnOn?dsuid=a453e4c5465f5dfb80e82a922790872a00
+
+Buro-id=14
+LED band buro: https://192.168.2.120:8080/json/device/turnOn?dsuid=0dac1b322d4557aa80acd976cbb7976000
+
+Esszimmer-id=10
+Green: https://192.168.2.120:8080/json/device/turnOn?dsuid=239404329680577ac0d136a4145897c400
+Green: https://192.168.2.120:8080/json/device/turnOn?dsuid=6da925bf8ab859088093df9c40b7957300
+Green: https://192.168.2.120:8080/json/device/turnOn?dsuid=610b205f1df7569bc0a3697c0965cbc900
+White: https://192.168.2.120:8080/json/device/turnOn?dsuid=4abfcafece0652c6c00cb4cfef42960000
+White: https://192.168.2.120:8080/json/device/turnOn?dsuid=e1530c7ec9045689c07b53bfd461362e00
+Red: https://192.168.2.120:8080/json/device/turnOn?dsuid=4fa738186c8353fd80be208dc74e09ac00
+Red: https://192.168.2.120:8080/json/device/turnOn?dsuid=e7bbf9f826aa549180a7bc88357b657000
+Red: https://192.168.2.120:8080/json/device/turnOn?dsuid=612177547125573d80fb44f6195fb4bf00
+Blue: https://192.168.2.120:8080/json/device/turnOn?dsuid=10b6b3901671504c80dd6c51df9737a400
+Blue: https://192.168.2.120:8080/json/device/turnOn?dsuid=4c0a04dcf9fd5fe8c0f755fc6165b7bf00
+Blue: https://192.168.2.120:8080/json/device/turnOn?dsuid=8d3b3d916eef5416c0a5d107f648174e00
+
+Flur-id=8
+Green: https://192.168.2.120:8080/json/device/turnOn?dsuid=55cf50db151c5bf4c0ed32e5ba55a3a500
+Green: https://192.168.2.120:8080/json/device/turnOn?dsuid=8cce24b5559d5075c09b9807954aa25200
+White: https://192.168.2.120:8080/json/device/turnOn?dsuid=0855055882245778c00993baa7a151e200
+Red: https://192.168.2.120:8080/json/device/turnOn?dsuid=c1b3cd9d3ee25068c0c6c9708e4f072900
+Red: https://192.168.2.120:8080/json/device/turnOn?dsuid=1fa8e42dfee85cacc01157ca0b8c3da000
+Blue: https://192.168.2.120:8080/json/device/turnOn?dsuid=42e82bfec74c5a4c80c2f7c080f3431800
+Blue: https://192.168.2.120:8080/json/device/turnOn?dsuid=a49211e534d55fe9807d886e403f4d8a00
+
+Kino-id=15
+LED: https://192.168.2.120:8080/json/device/turnOn?dsuid=303505d7f80000000000004000133bef00
+
+Kuche-id=13
+LED: https://192.168.2.120:8080/json/device/turnOn?dsuid=67faa830b01650f2c077b8ee2695633700
+
+Schlafzimmer-id=12
+LED: https://192.168.2.120:8080/json/device/turnOn?dsuid=f6d813b524d55b7080c5e91568b475c300
+
+
+
+SET Lights to 20%
+https://192.168.2.120:8080/json/device/setValue?dsuid=2f9ab2108161565ec0a53d70c5eb045600&value=50
+
+SET Lights to 30%
+https://192.168.2.120:8080/json/device/setValue?dsuid=2f9ab2108161565ec0a53d70c5eb045600&value=76
+
+
+
+Heating
+
+Kino-id=1,Schalfzimmer-id=4,Wohnzimmer-id=2, Kuche-id=6, Buro-id=5
+
+https://192.168.2.120:8080/json/zone/setTemperatureControlValues?id=1&Comfort=23
+
+Heaters
+Kino-
+Schalfzimmer-
+buro-
+kuche-
+Wohnzimmer-
+
+
+
+Shutters-set direction
+
+setCardinalDirection?dsid=3504175fe000000000016be7&direction=south\%20west
+
