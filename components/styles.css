@@ -1,5 +1,4 @@
-.header{   
-    background: rgb(175,238,238);
+.header{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -12,8 +11,15 @@
   text-align: center;  
   justify-content: center;
 }
+.background{
+  background: rgb(199, 236, 231);
+}
 
-  .links{
+.links{
     justify-content: center;
     text-align: center;
   }
+  .sidebar {
+    width: auto;
+    height: 100%vh;
+   }
